@@ -1,0 +1,21 @@
+🩺 checking the health of your Storybook..
+WARN Multiple main files found in your configDir (C:\Users\narus\playgroud\typescript_react_next\ts-nextbook-app-main\.storybook).
+WARN Storybook will use the first one found and ignore the others. Please remove the extra files.
+
+╭ Diagnostics ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                               │
+│   Attention: We've detected that you're using the following addons in versions which are known to be incompatible with        │
+│   Storybook 7:                                                                                                                │
+│                                                                                                                               │
+│   - @storybook/addon-postcss@2.0.0                                                                                            │
+│                                                                                                                               │
+│   Please be aware they might not work in Storybook 7. Reach out to their maintainers for updates and check the following      │
+│   Github issue for more information:                                                                                          │
+│   https://github.com/storybookjs/storybook/issues/20529                                                                       │
+│                                                                                                                               │
+│   -------                                                                                                                     │
+│                                                                                                                               │
+│   You can find the full logs in C:\Users\narus\playgroud\typescript_react_next\ts-nextbook-app-main\doctor-storybook.log      │
+│                                                                                                                               │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
