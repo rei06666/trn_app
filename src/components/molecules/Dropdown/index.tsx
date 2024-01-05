@@ -214,8 +214,12 @@ const Dropdown = (props: DropdownProps) => {
           {props.options.map((item, idx) => (
             <DropdownOption
               key={idx}
-              onMouseDown={(e: React.MouseEvent<HTMLDivElement, MouseEvent>) => handleSelectValue(e, item)}
-              onClick={(e: React.MouseEvent<HTMLDivElement, MouseEvent>) => handleSelectValue(e, item)}
+              onMouseDown={(e: React.MouseEvent<HTMLDivElement, MouseEvent>) =>
+                handleSelectValue(e, item)
+              }
+              onClick={(e: React.MouseEvent<HTMLDivElement, MouseEvent>) =>
+                handleSelectValue(e, item)
+              }
               data-testid="dropdown-option"
             >
               <DropdownItem item={item} />
